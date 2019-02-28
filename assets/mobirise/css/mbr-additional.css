@@ -1397,8 +1397,6 @@ body {
   font-style: italic;
 }
 .cid-rjp0eW9Sc9 {
-  padding-top: 90px;
-  padding-bottom: 90px;
   background-image: url("../../../assets/images/background4.jpg");
 }
 .cid-rjp0eW9Sc9 .media-container-row {
@@ -1783,6 +1781,15 @@ body {
 }
 .cid-rjoVDjTZC3 .google-map[data-state="loading"] [data-state-details] {
   display: none;
+}
+.cid-rjq05UihY2 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-rjq05UihY2 .mbr-text,
+.cid-rjq05UihY2 blockquote {
+  color: #767676;
 }
 .cid-rjp0TfZtyy {
   padding-top: 90px;

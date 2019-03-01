@@ -1607,7 +1607,7 @@ body {
   text-align: center;
 }
 .cid-rjoTVwLoRC .content-slider-wrap {
-  width: 60%;
+  width: 100%;
 }
 .cid-rjqsWNqJtE {
   padding-top: 60px;
@@ -2100,4 +2100,14 @@ body {
   .cid-rjp0TfZtyy .btn {
     font-size: 20px !important;
   }
+}
+#custom-html-1c {
+  /* Type valid CSS here */
+}
+#custom-html-1c #share-buttons img {
+  width: 35px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
 }

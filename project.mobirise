@@ -40,7 +40,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 49,
+    "uniqCompNum": 51,
     "versionPublish": "4.9.4",
     "screenshot": "screenshot.png"
   },
@@ -92,7 +92,7 @@
       "settings": {
         "meta_descr": "Bring more awareness to your business from end-users within our ecosystem with a customized, evergreen geofence LOCATION campaign that we post within our geofence ecosystem.",
         "title": "LocalBeacons Location Campaign",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -1052,13 +1052,61 @@
           "_customTemplate": true,
           "_afterNavbarItem": false,
           "_customHTML": "<!-- Type valid HTML here -->\n<!-- I got these buttons from simplesharebuttons.com -->\n<div id=\"share-buttons\">\n    \n    <!-- Facebook -->\n    <a href=\"http://www.facebook.com/sharer.php?u=https://localbeaconoffers.com/download\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/facebook.png\" alt=\"Facebook\">\n    </a>\n  \n    <!-- Twitter -->\n    <a href=\"https://twitter.com/share?url=https://localbeaconoffers.com/download&amp;text=Local%20Beacon%20Offers&amp;hashtags=helloatlanta\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/twitter.png\" alt=\"Twitter\">\n    </a>\n  \n    <!-- Google+ -->\n    <a href=\"https://plus.google.com/share?url=https://localbeaconoffers.com/download\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/google.png\" alt=\"Google\">\n    </a>\n    \n    <!-- LinkedIn -->\n    <a href=\"http://www.linkedin.com/shareArticle?mini=true&amp;url=https://localbeaconoffers.com/download\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/linkedin.png\" alt=\"LinkedIn\">\n    </a>\n    \n    <!-- Pinterest \n    <a href=\"javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/pinterest.png\" alt=\"Pinterest\">\n    </a> -->\n  \n    <!-- Reddit \n    <a href=\"http://reddit.com/submit?url=https://localbeaconoffers.com/download&amp;title=Local Beacon Offers\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/reddit.png\" alt=\"Reddit\">\n    </a> -->\n    \n    <!-- StumbleUpon\n    <a href=\"http://www.stumbleupon.com/submit?url=https://localbeaconoffers.com/download&amp;title=Local Beacon Offers\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/stumbleupon.png\" alt=\"StumbleUpon\">\n    </a> -->\n    \n    <!-- Tumblr\n    <a href=\"http://www.tumblr.com/share/link?url=https://localbeaconoffers.com/download&amp;title=Local Beacon Offers\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/tumblr.png\" alt=\"Tumblr\">\n    </a> -->\n     \n    <!-- Buffer \n    <a href=\"https://bufferapp.com/add?url=https://localbeaconoffers.com/download&amp;text=Local Beacon Offers\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/buffer.png\" alt=\"Buffer\">\n    </a -->\n    \n    <!-- Digg \n    <a href=\"http://www.digg.com/submit?url=https://localbeaconoffers.com/download\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/diggit.png\" alt=\"Digg\">\n    </a> -->\n    \n    <!-- VK \n    <a href=\"http://vkontakte.ru/share.php?url=https://localbeaconoffers.com/download\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/vk.png\" alt=\"VK\">\n    </a> -->\n    \n    <!-- Yummly \n    <a href=\"http://www.yummly.com/urb/verify?url=https://localbeaconoffers.com/download&amp;title=Local Beacon Offers\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/yummly.png\" alt=\"Yummly\">\n    </a> -->\n\n</div>",
-          "_customCSS": "/* Type valid CSS here */\n\n#share-buttons {\n  margin: auto;\n  width: 26%;\n  padding: 10px;\n}\n\n#share-buttons img {\nwidth: 40px;\nborder: 0;\nbox-shadow: 0;\ndisplay: inline;\npadding-top: 0px;\npadding-bottom: 100px;\n}",
+          "_customCSS": "/* Type valid CSS here */\n\n#share-buttons {\n  margin: auto;\n  width: 20%;\n  padding: 10px;\n}\n\n#share-buttons img {\nwidth: 50px;\nborder: 0;\nbox-shadow: 0;\ndisplay: inline;\npadding-top: 0px;\npadding-bottom: 40px;\n}",
           "alias": "code-editor",
           "_tags": [
             "Extension"
           ],
           "_name": "pro.custom-html",
           "_anchor": "custom-html-1c",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        }
+      ]
+    },
+    "gmaps-direction.html": {
+      "settings": {
+        "meta_descr": "Google Maps Direction Code",
+        "title": "Google Maps Direction Code",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "P": {
+              "color": "#767676"
+            }
+          },
+          "_name": "header16",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    Google Maps Direction Code</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Test</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">xxxxx</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "rjvd8qMnR2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header16-1e"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n<form action=\"http://maps.google.com/maps\" method=\"get\" target=\"_blank\">\n   <label for=\"saddr\">Enter your location</label>\n   <input type=\"text\" name=\"saddr\">\n   <input type=\"hidden\" name=\"daddr\" value=\"350 5th Ave New York, NY 10018 (Empire State Building)\">\n   <input type=\"submit\" value=\"Get directions\">\n</form>",
+          "_customCSS": "/* Type valid CSS here */\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-1d",
           "_PHPplaceholders": [],
           "_JSplaceholders": []
         }

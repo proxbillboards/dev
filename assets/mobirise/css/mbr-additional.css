@@ -2106,14 +2106,25 @@ body {
 }
 #custom-html-1c #share-buttons {
   margin: auto;
-  width: 26%;
+  width: 20%;
   padding: 10px;
 }
 #custom-html-1c #share-buttons img {
-  width: 40px;
+  width: 50px;
   border: 0;
   box-shadow: 0;
   display: inline;
   padding-top: 0px;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
+}
+.cid-rjvd8qMnR2 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-rjvd8qMnR2 P {
+  color: #767676;
+}
+#custom-html-1d {
+  /* Type valid CSS here */
 }

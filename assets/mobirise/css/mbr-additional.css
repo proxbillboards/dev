@@ -2106,8 +2106,9 @@ body {
 }
 #custom-html-1c #share-buttons {
   margin: auto;
-  width: 20%;
-  padding: 10px;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
 }
 #custom-html-1c #share-buttons img {
   width: 50px;

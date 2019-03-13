@@ -2056,6 +2056,9 @@ body {
 .cid-rjq05UihY2 blockquote {
   color: #767676;
 }
+.cid-rjq05UihY2 DIV {
+  text-align: center;
+}
 .cid-rjp0TfZtyy {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -3548,4 +3551,80 @@ body {
 .cid-rjz85RuPMT .nav-link:hover,
 .cid-rjz85RuPMT .dropdown-item:hover {
   color: #767676 !important;
+}
+.cid-rjWMShRsT1 {
+  background-image: url("../../../assets/images/localbeacons-app-smartmockup-2000x1333.jpg");
+}
+.cid-rjWMShRsT1 h1 {
+  color: #616161;
+}
+.cid-rjWMShRsT1 h2,
+.cid-rjWMShRsT1 h3,
+.cid-rjWMShRsT1 p {
+  color: #767676;
+}
+.cid-rjWMShRsT1 .mbr-section-subtitle {
+  font-style: italic;
+}
+.cid-rjWMShRsT1 H1 {
+  text-align: center;
+}
+.cid-rjWMShRsT1 H3 {
+  text-align: center;
+}
+.cid-rjWMShRsT1 .mbr-text,
+.cid-rjWMShRsT1 .mbr-section-btn {
+  text-align: center;
+}
+.cid-rjWMHzmoDX {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rjWMHzmoDX .title {
+  margin-bottom: 2rem;
+}
+.cid-rjWMHzmoDX .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rjWMHzmoDX a:not([href]):not([tabindex]) {
+  color: #fff;
+  border-radius: 3px;
+}
+.cid-rjWMHzmoDX a.btn-white:not([href]):not([tabindex]) {
+  color: #333;
+}
+.cid-rjWMHzmoDX textarea.form-control {
+  min-height: 188px;
+}
+.cid-rkC3jmcJk8 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-rkC3jmcJk8 .mbr-text,
+.cid-rkC3jmcJk8 blockquote {
+  color: #767676;
+}
+#custom-html-28 {
+  /* Type valid CSS here */
+}
+#custom-html-28 #share-buttons {
+  margin: auto;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+#custom-html-28 #share-buttons img {
+  width: 50px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+  padding-top: 0px;
+  padding-bottom: 100px;
+}
+.cid-rkCeV2iewe {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
 }

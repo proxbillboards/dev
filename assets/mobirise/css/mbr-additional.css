@@ -2676,48 +2676,32 @@ body {
     height: auto !important;
   }
 }
-.cid-rjyPrHMwTE {
-  padding-top: 0px;
+.cid-rmjwPh7I2u {
+  padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-rjyPrHMwTE .mbr-iconfont {
-  font-size: 48px;
-  padding-right: 1rem;
+.cid-rmjwPh7I2u div.b {
+  padding-top: 2rem;
 }
-.cid-rjyPrHMwTE .icon-block {
-  margin-bottom: 10px;
-}
-.cid-rjyPrHMwTE .icon-block .icon-block__icon {
-  display: inline-block;
-  vertical-align: middle;
-}
-.cid-rjyPrHMwTE .icon-block .icon-block__title {
-  display: inline-block;
-  vertical-align: middle;
-  margin-bottom: 0;
-  line-height: 1;
-  font-style: italic;
-}
-.cid-rjyPrHMwTE .mbr-text {
+.cid-rmjwPh7I2u .mbr-text {
   color: #767676;
+  margin: 0;
+  padding-top: 1.5rem;
 }
-.cid-rjyPrHMwTE textarea.form-control {
-  min-height: 100px;
-}
-.cid-rjyPrHMwTE a:not([href]):not([tabindex]) {
+.cid-rmjwPh7I2u a:not([href]):not([tabindex]) {
   color: #fff;
   border-radius: 3px;
 }
-.cid-rjyPrHMwTE .google-map {
-  height: 28rem;
+.cid-rmjwPh7I2u .google-map {
+  height: 21rem;
   position: relative;
 }
-.cid-rjyPrHMwTE .google-map iframe {
+.cid-rmjwPh7I2u .google-map iframe {
   height: 100%;
   width: 100%;
 }
-.cid-rjyPrHMwTE .google-map [data-state-details] {
+.cid-rmjwPh7I2u .google-map [data-state-details] {
   color: #6b6763;
   font-family: Montserrat;
   height: 1.5em;
@@ -2729,23 +2713,21 @@ body {
   top: 50%;
   width: 100%;
 }
-.cid-rjyPrHMwTE .google-map[data-state] {
+.cid-rmjwPh7I2u .google-map[data-state] {
   background: #e9e5dc;
 }
-.cid-rjyPrHMwTE .google-map[data-state="loading"] [data-state-details] {
+.cid-rmjwPh7I2u .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
-@media (max-width: 767px) {
-  .cid-rjyPrHMwTE h2 {
-    padding-top: 2rem;
-  }
+.cid-rmjwPh7I2u div.left-block.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
-@media (min-width: 768px) {
-  .cid-rjyPrHMwTE .container > .row > .col-md-6:first-child {
-    padding-right: 30px;
-  }
-  .cid-rjyPrHMwTE .container > .row > .col-md-6:last-child {
-    padding-left: 30px;
+@media (max-width: 767px) {
+  .cid-rmjwPh7I2u div.left-block.wrapper {
+    padding-bottom: 3rem;
   }
 }
 .cid-rjyRKzU1e0 {

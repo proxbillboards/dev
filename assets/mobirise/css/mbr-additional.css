@@ -1874,30 +1874,6 @@ body {
     display: block;
   }
 }
-#custom-html-2a {
-  /* Type valid CSS here */
-}
-#custom-html-2a div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-2a p {
-  font-size: 60px;
-  color: #777;
-}
-#custom-html-29 {
-  /* Type valid CSS here */
-}
-#custom-html-29 div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-29 p {
-  font-size: 60px;
-  color: #777;
-}
 .cid-rjoVDjTZC3 {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1982,15 +1958,6 @@ body {
 }
 .cid-rjoVDjTZC3 .google-map[data-state="loading"] [data-state-details] {
   display: none;
-}
-.cid-rmRBA8IJnZ {
-  padding-top: 75px;
-  padding-bottom: 75px;
-  background-color: #ffffff;
-}
-.cid-rmRBA8IJnZ .mbr-overlay {
-  background-color: #ffffff;
-  opacity: 0.4;
 }
 .cid-rjtgQEEkb6 {
   padding-top: 45px;

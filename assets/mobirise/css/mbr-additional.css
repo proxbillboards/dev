@@ -1874,6 +1874,18 @@ body {
     display: block;
   }
 }
+#custom-html-26 {
+  /* Type valid CSS here */
+}
+#custom-html-26 div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-26 p {
+  font-size: 60px;
+  color: #777;
+}
 .cid-rjoVDjTZC3 {
   padding-top: 60px;
   padding-bottom: 60px;

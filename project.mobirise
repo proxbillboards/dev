@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Proximity Billboards",
-    "currentPage": "deals-from-who.html",
+    "currentPage": "local-template.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -41,7 +41,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 78,
+    "uniqCompNum": 79,
     "versionPublish": "4.9.6",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -757,6 +757,20 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <h1 class=\"display-1\">Custom HTML Block</h1>\n    <a href=\"http://ratemycompanyonline.com/wp-content/plugins/ReviewPro/contact/rating.php?0=1\" target=\"_blank\">Leave a Review </a>\n</div>",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-26",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "_styles": {

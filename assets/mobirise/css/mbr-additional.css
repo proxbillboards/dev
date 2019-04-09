@@ -2313,7 +2313,7 @@ body {
   }
 }
 .cid-rjyP19x0pI {
-  padding-top: 90px;
+  padding-top: 45px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
@@ -2633,6 +2633,29 @@ body {
   display: inline;
   padding-top: 0px;
   padding-bottom: 100px;
+}
+.cid-rnan98eKPd {
+  padding-top: 120px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rnan98eKPd .line {
+  background-color: #4f6df5;
+  color: #4f6df5;
+  align: center;
+  height: 1px;
+  margin: 0 auto;
+}
+.cid-rnan98eKPd .section-text {
+  padding: 2rem 0;
+}
+.cid-rnan98eKPd .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rnan98eKPd .inner-container {
+    width: 100% !important;
+  }
 }
 .cid-rjz1oz9y1O {
   padding-top: 120px;

@@ -3181,7 +3181,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n[JS_CODE_0]",
+          "_customHTML": "<!-- Type valid HTML here -->\n<div>\n[JS_CODE_0]\n</div>",
           "_customCSS": "/* Type valid CSS here */\n",
           "alias": "code-editor",
           "_tags": [

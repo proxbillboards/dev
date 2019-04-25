@@ -3181,8 +3181,8 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <div id=\"rev-351466940\"></div>\n[JS_CODE_0]\n</div>",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "_customHTML": "<!-- Type valid HTML here -->\n\n[JS_CODE_0]",
+          "_customCSS": "/* Type valid CSS here */\n",
           "alias": "code-editor",
           "_tags": [
             "Extension"

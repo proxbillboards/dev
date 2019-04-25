@@ -3181,7 +3181,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n<div>\n[JS_CODE_0]\n</div>",
+          "_customHTML": "<!-- Type valid HTML here -->\n<div>\n<div id=\"rev-817120504\"></div>\n[JS_CODE_0]\n</div>",
           "_customCSS": "/* Type valid CSS here */\n",
           "alias": "code-editor",
           "_tags": [
@@ -3191,7 +3191,7 @@
           "_anchor": "custom-html-27",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script>\n    (function (w,d,s,o,f,i,js,fjs) {\n        js = d.createElement(s), fjs = d.getElementById(o);\n        js.src = f+'?i='+i+'&o='+o; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n    }(window, document, 'script', 'rev-351466940', 'https://app.reviewify360.net/r360_rev.js',88));\n</script>"
+            "<script>\n    (function (w,d,s,o,f,i,js,fjs) {\n        js = d.createElement(s), fjs = d.getElementById(o);\n        js.src = f+'?i='+i+'&o='+o; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n    }(window, document, 'script', 'rev-817120504', 'https://app.reviewify360.net/r360_rev.js',88));\n</script>"
           ]
         }
       ]

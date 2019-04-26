@@ -62,6 +62,33 @@
     }(window, document, 'script', 'https://app.reviewify360.net/r360_rev_ask.js',15));
 </script></div>
 
+<div id="custom-html-2e"><!-- Type valid HTML here -->
+
+
+
+<meta charset="UTF-8">
+<title>Example of HTML5 Geolocation</title>
+<script type="text/javascript">
+    function showPosition(){
+        if(navigator.geolocation){
+            navigator.geolocation.getCurrentPosition(function(position){
+                var positionInfo = "Your current position is (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " + position.coords.longitude + ")";
+                document.getElementById("result").innerHTML = positionInfo;
+            });
+        } else{
+            alert("Sorry, your browser does not support HTML5 geolocation.");
+        }
+    }
+</script>
+
+
+    <div id="result">
+        <!--Position information will be inserted here-->
+    </div>
+    <button type="button" onclick="showPosition();">Show Position</button>
+
+               </div>
+
 <section class="cid-roH1FSrpVJ" id="footer2-2a">
 
     

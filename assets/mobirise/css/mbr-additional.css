@@ -3724,7 +3724,7 @@ body {
 }
 .cid-roJRdcID7y .main_wrapper .b_wrapper .block {
   height: 300px;
-  background-color: #ffffff;
+  background-color: #2e2e2e;
   pointer-events: fill;
 }
 .cid-roJRdcID7y .main_wrapper .b_wrapper .block .block_wrapper {
@@ -3775,6 +3775,9 @@ body {
     max-width: 100%;
     padding: 0;
   }
+}
+.cid-roJRdcID7y P {
+  color: #ffffff;
 }
 .cid-roJRhGm58h {
   padding-top: 30px;

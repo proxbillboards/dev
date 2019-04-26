@@ -3217,22 +3217,6 @@
           ]
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n\n\n<meta charset=\"UTF-8\">\n<title>Example of HTML5 Geolocation</title>\n[JS_CODE_0]\n\n\n    <div id=\"result\">\n        <!--Position information will be inserted here-->\n    </div>\n    <button type=\"button\" onclick=\"showPosition();\">Show Position</button>\n\n               ",
-          "_customCSS": "/* Type valid CSS here */",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-2e",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script type=\"text/javascript\">\n    function showPosition(){\n        if(navigator.geolocation){\n            navigator.geolocation.getCurrentPosition(function(position){\n                var positionInfo = \"Your current position is (\" + \"Latitude: \" + position.coords.latitude + \", \" + \"Longitude: \" + position.coords.longitude + \")\";\n                document.getElementById(\"result\").innerHTML = positionInfo;\n            });\n        } else{\n            alert(\"Sorry, your browser does not support HTML5 geolocation.\");\n        }\n    }\n</script>"
-          ]
-        },
-        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
@@ -3337,6 +3321,22 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n\n\n<meta charset=\"UTF-8\">\n<title>Example of HTML5 Geolocation</title>\n[JS_CODE_0]\n\n\n    <div id=\"result\">\n        <!--Position information will be inserted here-->\n    </div>\n    <button type=\"button\" onclick=\"showPosition();\">Show Position</button>\n\n               ",
+          "_customCSS": "/* Type valid CSS here */",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-2e",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"text/javascript\">\n    function showPosition(){\n        if(navigator.geolocation){\n            navigator.geolocation.getCurrentPosition(function(position){\n                var positionInfo = \"Your current position is (\" + \"Latitude: \" + position.coords.latitude + \", \" + \"Longitude: \" + position.coords.longitude + \")\";\n                document.getElementById(\"result\").innerHTML = positionInfo;\n            });\n        } else{\n            alert(\"Sorry, your browser does not support HTML5 geolocation.\");\n        }\n    }\n</script>"
+          ]
         }
       ]
     }

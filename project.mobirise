@@ -926,7 +926,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n<form action=\"http://maps.google.com/maps\" method=\"get\" target=\"_blank\">\n   <label for=\"saddr\">Enter your location</label>\n   <input type=\"text\" name=\"saddr\">\n   <input type=\"hidden\" name=\"daddr\" value=\"350 5th Ave New York, NY 10018 (Empire State Building)\">\n   <input type=\"submit\" value=\"Get directions\">\n</form>",
+          "_customHTML": "<!-- Type valid HTML here -->\n<div style=\"text-align:center;\">\n    <form action=\"http://maps.google.com/maps\" method=\"get\" target=\"_blank\">\n   <label for=\"saddr\">Enter your location (neighborhood, zip code, etc.)</label>\n   <input type=\"text\" name=\"saddr\">\n   <input type=\"hidden\" name=\"daddr\" value=\"350 5th Ave New York, NY 10018 (Empire State Building)\">\n   <input type=\"submit\" value=\"Get directions\">\n</form>\n</div>",
           "_customCSS": "/* Type valid CSS here */\n",
           "alias": "code-editor",
           "_tags": [

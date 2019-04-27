@@ -3718,7 +3718,7 @@
             }
           },
           "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>\n                    Business tag line / elevator pitch text goes here</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>\n                    Business tag line / elevator pitch text goes here</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_cid": "roSiswXxDx",
           "_anchor": "content9-3l",
           "_protectedParams": [],
@@ -4000,7 +4000,7 @@
             }
           },
           "_name": "slider2",
-          "_customHTML": "<section class=\"carousel slide\" group=\"Sliders & Gallery\" plugins=\"YTPlayer,VimeoPlayer,SliderVideo,BootstrapCarouselSwipe\" data-interval=\"false\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <!-- <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> -->\n        <input type=\"hidden\" name=\"typeSlider\" value=\"headerSlider\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" inline>\n        <input type=\"range\" title=\"Width\" name=\"sliderWSize\" min=\"50\" max=\"100\" step=\"1\" value=\"100\" inline>\n        <input type=\"range\" title=\"Height\" name=\"sliderHSize\" min=\"300\" max=\"700\" step=\"10\" value=\"400\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        <input type=\"carousel\" title=\"Slides\" name=\"slides\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"container content-slider\">\n        <div class=\"content-slider-wrap\">\n            <div mbr-carousel=\"slides\"></div> \n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"carousel slide\" group=\"Sliders & Gallery\" plugins=\"YTPlayer,VimeoPlayer,SliderVideo,BootstrapCarouselSwipe\" data-interval=\"false\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <!-- <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> -->\n        <input type=\"hidden\" name=\"typeSlider\" value=\"headerSlider\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" inline>\n        <input type=\"range\" title=\"Width\" name=\"sliderWSize\" min=\"50\" max=\"100\" step=\"1\" value=\"100\" inline>\n        <input type=\"range\" title=\"Height\" name=\"sliderHSize\" min=\"300\" max=\"700\" step=\"10\" value=\"450\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        <input type=\"carousel\" title=\"Slides\" name=\"slides\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"container content-slider\">\n        <div class=\"content-slider-wrap\">\n            <div mbr-carousel=\"slides\"></div> \n        </div>\n    </div>\n</section>",
           "_cid": "roSlBfwNeB",
           "_anchor": "slider2-3o",
           "_protectedParams": [
@@ -4071,22 +4071,6 @@
           }
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <div id=\"rev-500515286\"></div>\n[JS_CODE_0]\n</div>",
-          "_customCSS": "/* Type valid CSS here */\n",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-2y",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script>\n    (function (w,d,s,o,f,i,js,fjs) {\n        js = d.createElement(s), fjs = d.getElementById(o);\n        js.src = f+'?i='+i+'&o='+o; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n    }(window, document, 'script', 'rev-500515286', 'https://app.reviewify360.net/r360_rev.js',97));\n</script>"
-          ]
-        },
-        {
           "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
           "_params": {
             "paddingTop": "1",
@@ -4110,6 +4094,22 @@
           ],
           "_name": "feed",
           "_anchor": "feed-27"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <div id=\"rev-500515286\"></div>\n[JS_CODE_0]\n</div>",
+          "_customCSS": "/* Type valid CSS here */\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-2y",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script>\n    (function (w,d,s,o,f,i,js,fjs) {\n        js = d.createElement(s), fjs = d.getElementById(o);\n        js.src = f+'?i='+i+'&o='+o; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n    }(window, document, 'script', 'rev-500515286', 'https://app.reviewify360.net/r360_rev.js',97));\n</script>"
+          ]
         },
         {
           "_styles": {
@@ -4229,7 +4229,7 @@
             }
           },
           "_name": "content2",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><b style=\"font-style: normal;\">Please patron [NAME OF BUSINESS], </b><span style=\"font-style: normal;\">inform your family and friends about us, and encourage everyone in Metro Atlanta to download the <a href=\"https://localbeaconoffers.com/download\" target=\"_blank\">FREE LocalBeacons App </a>to view [our] in-store only deals and notifications!\n<br></span><span style=\"font-size: 1.09rem;\"><span style=\"font-style: normal;\"><br></span><b>&nbsp;</b></span><b style=\"font-size: 1.09rem;\">We greatly appreciate it! Thanks</b></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><b style=\"font-style: normal;\">Please patron [NAME OF BUSINESS], </b><span style=\"font-style: normal;\">inform your family and friends about us, and encourage everyone in Metro Atlanta to download the <a href=\"https://localbeaconoffers.com/download\" target=\"_blank\">FREE LocalBeacons App </a>to view [our] in-store only deals and notifications!\n<br></span><span style=\"font-size: 1.09rem;\"><span style=\"font-style: normal;\"><br></span><b>&nbsp;</b></span><b style=\"font-size: 1.09rem;\">We greatly appreciate it! Thanks</b></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rjq05UihY2",
           "_anchor": "content2-i",
           "_protectedParams": [],
@@ -4305,7 +4305,7 @@
           "_customTemplate": true,
           "_afterNavbarItem": false,
           "_customHTML": "<!-- Type valid HTML here -->\n<!-- I got these buttons from simplesharebuttons.com -->\n<div id=\"share-buttons\">\n    \n    <!-- Facebook -->\n    <a href=\"http://www.facebook.com/sharer.php?u=https://localbeaconoffers.com/download\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/facebook.png\" alt=\"Facebook\">\n    </a>\n  \n    <!-- Twitter -->\n    <a href=\"https://twitter.com/share?url=https://localbeaconoffers.com/download&amp;text=Local%20Beacon%20Offers&amp;hashtags=helloatlanta\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/twitter.png\" alt=\"Twitter\">\n    </a>\n  \n    <!-- Google+ -->\n    <a href=\"https://plus.google.com/share?url=https://localbeaconoffers.com/download\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/google.png\" alt=\"Google\">\n    </a>\n    \n    <!-- LinkedIn -->\n    <a href=\"http://www.linkedin.com/shareArticle?mini=true&amp;url=https://localbeaconoffers.com/download\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/linkedin.png\" alt=\"LinkedIn\">\n    </a>\n    \n    <!-- Pinterest  -->\n    <a href=\"javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/pinterest.png\" alt=\"Pinterest\">\n    </a>\n  \n    <!-- Reddit \n    <a href=\"http://reddit.com/submit?url=https://localbeaconoffers.com/download&amp;title=Local Beacon Offers\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/reddit.png\" alt=\"Reddit\">\n    </a> -->\n    \n    <!-- StumbleUpon\n    <a href=\"http://www.stumbleupon.com/submit?url=https://localbeaconoffers.com/download&amp;title=Local Beacon Offers\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/stumbleupon.png\" alt=\"StumbleUpon\">\n    </a> -->\n    \n    <!-- Tumblr\n    <a href=\"http://www.tumblr.com/share/link?url=https://localbeaconoffers.com/download&amp;title=Local Beacon Offers\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/tumblr.png\" alt=\"Tumblr\">\n    </a> -->\n     \n    <!-- Buffer \n    <a href=\"https://bufferapp.com/add?url=https://localbeaconoffers.com/download&amp;text=Local Beacon Offers\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/buffer.png\" alt=\"Buffer\">\n    </a -->\n    \n    <!-- Digg \n    <a href=\"http://www.digg.com/submit?url=https://localbeaconoffers.com/download\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/diggit.png\" alt=\"Digg\">\n    </a> -->\n    \n    <!-- VK \n    <a href=\"http://vkontakte.ru/share.php?url=https://localbeaconoffers.com/download\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/vk.png\" alt=\"VK\">\n    </a> -->\n    \n    <!-- Yummly \n    <a href=\"http://www.yummly.com/urb/verify?url=https://localbeaconoffers.com/download&amp;title=Local Beacon Offers\" target=\"_blank\">\n        <img src=\"https://simplesharebuttons.com/images/somacro/yummly.png\" alt=\"Yummly\">\n    </a> -->\n\n</div>",
-          "_customCSS": "/* Type valid CSS here */\n\n#share-buttons {\n  margin: auto;\n  width: 100%;\n  padding: 5px;\n  text-align:center;\n}\n\n#share-buttons img {\nwidth: 50px;\nborder: 0;\nbox-shadow: 0;\ndisplay: inline;\npadding-top: 0px;\npadding-bottom: 100px;\n}",
+          "_customCSS": "/* Type valid CSS here */\n\n#share-buttons {\n  margin: auto;\n  width: 100%;\n  padding: 5px;\n  text-align:center;\n}\n\n#share-buttons img {\nwidth: 50px;\nborder: 0;\nbox-shadow: 0;\ndisplay: inline;\npadding-top: 0px;\npadding-bottom: 75px;\n}",
           "alias": "code-editor",
           "_tags": [
             "Extension"

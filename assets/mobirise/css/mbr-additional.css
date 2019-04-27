@@ -3701,31 +3701,26 @@ body {
   padding-bottom: 60px;
   background-color: #2e2e2e;
 }
-.cid-roR2n2C9SZ {
-  padding-top: 90px;
-  padding-bottom: 90px;
+.cid-roR7XkBJkM {
+  background: linear-gradient(45deg, #ffffff, #149dcc);
+}
+@media (min-width: 992px) {
+  .cid-roR7XkBJkM .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-roR7XkBJkM .mbr-figure {
+    padding-top: 3rem;
+  }
 }
 #custom-html-27 {
   /* Type valid CSS here */
 }
 .cid-roLETz9hJ4 {
   padding-top: 45px;
-  padding-bottom: 0px;
+  padding-bottom: 45px;
   background-color: #ffffff;
-}
-.cid-roJTTIVty1 {
-  background: #149dcc;
-  padding-top: 60px;
-  padding-bottom: 30px;
-  background: linear-gradient(0deg, #149dcc, #ffffff);
-}
-.cid-roJTTIVty1 .video-block {
-  margin: auto;
-}
-@media (max-width: 768px) {
-  .cid-roJTTIVty1 .video-block {
-    width: 100% !important;
-  }
 }
 .cid-roR1GJ6KhJ {
   padding-top: 60px;

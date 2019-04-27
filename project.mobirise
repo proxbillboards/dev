@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Proximity Billboards",
-    "currentPage": "gmaps-direction.html",
+    "currentPage": "local-template.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -42,7 +42,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 106,
+    "uniqCompNum": 107,
     "versionPublish": "4.9.6",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-proximity-billboards-dark-300x300-128x128.png",
@@ -100,7 +100,7 @@
       "settings": {
         "meta_descr": "Bring more awareness to your business from end-users within our ecosystem with a customized, evergreen geofence LOCATION campaign that we post within our geofence ecosystem.",
         "title": "LocalBeacons Location Campaign",
-        "order": 6
+        "order": 2
       },
       "components": [
         {
@@ -493,6 +493,22 @@
               }
             ]
           }
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <div id=\"rev-381375331\"></div>\n[JS_CODE_0]\n</div>",
+          "_customCSS": "/* Type valid CSS here */\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-2y",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script>\n    (function (w,d,s,o,f,i,js,fjs) {\n        js = d.createElement(s), fjs = d.getElementById(o);\n        js.src = f+'?i='+i+'&o='+o; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n    }(window, document, 'script', 'rev-381375331', 'https://app.reviewify360.net/r360_rev.js',96));\n</script>"
+          ]
         },
         {
           "_styles": {
@@ -895,7 +911,7 @@
       "settings": {
         "meta_descr": "Google Maps Direction Code",
         "title": "Google Maps Direction Code",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -2818,7 +2834,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Page 6",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -3176,7 +3192,7 @@
       "settings": {
         "meta_descr": "Lucky Shoals Park (Norcross, Georgia)",
         "title": "LocalBeacons - Lucky Shoals Park (Norcross, Georgia) - Proximity Billboards",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -3382,7 +3398,7 @@
       "settings": {
         "meta_descr": "Shorty Howell Park (Duluth, Georgia)",
         "title": "LocalBeacons - Shorty Howell Park (Duluth, Georgia) - Proximity Billboards",
-        "order": 3
+        "order": 4
       },
       "components": [
         {

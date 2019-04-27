@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Proximity Billboards",
-    "currentPage": "page6.html",
+    "currentPage": "gmaps-direction.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -2658,7 +2658,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "LocalBeacons - Who Do You Want Deals From?",
-        "order": 4
+        "order": 1
       },
       "components": [
         {
@@ -2818,7 +2818,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Page 6",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -3176,7 +3176,7 @@
       "settings": {
         "meta_descr": "Lucky Shoals Park (Norcross, Georgia)",
         "title": "LocalBeacons - Lucky Shoals Park (Norcross, Georgia) - Proximity Billboards",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -3382,7 +3382,7 @@
       "settings": {
         "meta_descr": "Shorty Howell Park (Duluth, Georgia)",
         "title": "LocalBeacons - Shorty Howell Park (Duluth, Georgia) - Proximity Billboards",
-        "order": 2
+        "order": 3
       },
       "components": [
         {

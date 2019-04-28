@@ -4068,71 +4068,11 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlayOpacity": "0.3"
               }
             ]
           }
-        },
-        {
-          "_params": {
-            "autoplay": true,
-            "animType": "kenburns",
-            "theme": "boundary",
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/slide3.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/slide3.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/tooltip3.jpg",
-                "title": "title 1",
-                "text": "text 1"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/slide2.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/slide2.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/tooltip2.jpg",
-                "title": "title 2",
-                "text": "text 2",
-                "active": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/slide1.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/slide1.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/tooltip1.jpg",
-                "title": "title 3",
-                "text": "text 3"
-              }
-            ],
-            "fullScreen": true,
-            "showCaptions": false,
-            "hideControls": false,
-            "responsive": "1",
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "captionsEffect": "slide",
-            "showBullets": false,
-            "bgColor": "#ffffff",
-            "timeout": 2,
-            "duration": 2,
-            "customSize": false,
-            "customWidth": "1600",
-            "customHeight": "1080",
-            "size": "1024x576",
-            "width": "1024",
-            "height": "576"
-          },
-          "articleLayout": false,
-          "alias": "wowslider",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "wowslider",
-          "_anchor": "wowslider-3r"
         },
         {
           "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",

@@ -3275,22 +3275,6 @@
           "_anchor": "feed-27"
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div id=\"llo_bw95mq2f6ymqy74j\" style=\"position:relative;padding-bottom:0px;\"><iframe id=\"llo_fbw95mq2f6ymqy74j\" src=\"//embed.vidello.com/88/bw95mq2f6ymqy74j/player.html\" allowfullscreen=\"\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;border:none;\"></iframe><div style=\"padding-top:56.25%;\"></div></div><div id=\"frame_shadow\" style=\"font-size:0px;\"><img src=\"https://static.vidello.com/frames/shadow.png\" style=\"width:100%;\"></div>[JS_CODE_0]",
-          "_customCSS": "/* Type valid CSS here */\n\n",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-28",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script type=\"application/ld+json\">{\"@context\": \"http://schema.org\",\"@type\": \"VideoObject\",\"name\": \"Advertise on the Best Websites\",\"description\": \"This video contains Advertise on the Best Websites\",\"thumbnailUrl\": \"https://embed.vidello.com/88/bw95mq2f6ymqy74j/video/splash.jpg\",\"uploadDate\": \"2019-05-21T00:11:55.000Z\",\"duration\": 81.2917}</script>"
-          ]
-        },
-        {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",

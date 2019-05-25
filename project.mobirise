@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Proximity Billboards",
-    "currentPage": "gmb-promo19.html",
+    "currentPage": "local-template-master.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -42,8 +42,8 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 82,
-    "versionPublish": "4.9.6",
+    "uniqCompNum": 81,
+    "versionPublish": "4.10.1",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-proximity-billboards-dark-300x300-128x128.png",
     "noImageResize": "",
@@ -3275,6 +3275,22 @@
           "_anchor": "feed-27"
         },
         {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div id=\"llo_bw95mq2f6ymqy74j\" style=\"position:relative;padding-bottom:0px;\"><iframe id=\"llo_fbw95mq2f6ymqy74j\" src=\"//embed.vidello.com/88/bw95mq2f6ymqy74j/player.html\" allowfullscreen=\"\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;border:none;\"></iframe><div style=\"padding-top:56.25%;\"></div></div><div id=\"frame_shadow\" style=\"font-size:0px;\"><img src=\"https://static.vidello.com/frames/shadow.png\" style=\"width:100%;\"></div>[JS_CODE_0]",
+          "_customCSS": "/* Type valid CSS here */\n\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-28",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"application/ld+json\">{\"@context\": \"http://schema.org\",\"@type\": \"VideoObject\",\"name\": \"Advertise on the Best Websites\",\"description\": \"This video contains Advertise on the Best Websites\",\"thumbnailUrl\": \"https://embed.vidello.com/88/bw95mq2f6ymqy74j/video/splash.jpg\",\"uploadDate\": \"2019-05-21T00:11:55.000Z\",\"duration\": 81.2917}</script>"
+          ]
+        },
+        {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -4828,11 +4844,11 @@
           "_name": "image3",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"80\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#4f6df5\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" checked condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <a href=\"https://proximitybillboards.com/gmb19/\"><img src=\"@PROJECT_PATH@/assets/images/proximitybillboards.com-gmb-promo-800x800.jpg\" width=\"1400\" alt=\"Google My Business (GMB) FREE Training\" title=\"Google My Business (GMB) FREE Training\"></a>\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                        Create awesome websites!\n                    </div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
           "_cid": "rqv3AKNKIe",
+          "_anchor": "image3-28",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image3-28"
+          "_params": {}
         },
         {
           "alias": false,
@@ -4844,11 +4860,11 @@
           "_name": "content8",
           "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://proximitybillboards.com/gmb19/\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rqxnwgRoLh",
+          "_anchor": "content8-29",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content8-29"
+          "_params": {}
         },
         {
           "_styles": {

@@ -26,7 +26,7 @@
         "isPulsation": true,
         "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       },
       "additionalSetColors": []
     },
@@ -46,7 +46,7 @@
     "vcard.html": {
       "settings": {
         "main": true,
-        "title": "Landing Page Vcard",
+        "title": "Landing Page Vcard MAIN Template",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",

@@ -1205,7 +1205,7 @@ body {
   width: 100%;
   position: relative;
   display: inline-block;
-  height: 600px;
+  height: 500px;
   overflow: hidden;
 }
 .cid-rufNdGuRGs .carousel-item .container-slide {
@@ -1396,106 +1396,95 @@ body {
 .cid-rufRfeqcYb .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
-.cid-rujtIIfrRj {
-  padding-top: 45px;
-  padding-bottom: 45px;
+.cid-rukeEIO8HT {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #232323;
 }
-@media (max-width: 767px) {
-  .cid-rujtIIfrRj .content {
-    text-align: center;
-  }
-  .cid-rujtIIfrRj .content > div:not(:last-child) {
-    margin-bottom: 2rem;
-  }
+.cid-rukeEIO8HT *:focus {
+  outline: none;
 }
-.cid-rujtIIfrRj .img-logo img {
-  height: 6rem;
-}
-.cid-rujtIIfrRj .social-list {
-  padding-left: 0;
-  margin-bottom: 0;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
-}
-.cid-rujtIIfrRj .social-list .mbr-iconfont-social {
-  font-size: 1rem;
-  color: #fff;
-}
-.cid-rujtIIfrRj .social-list .mbr-iconfont:before {
-  padding: .5rem;
-  border: 1px solid;
-  border-radius: 100px;
-}
-.cid-rujtIIfrRj .social-list .soc-item {
-  margin: 0 3px 15px 3px;
-}
-.cid-rujtIIfrRj .social-list a {
-  margin: 0;
-  opacity: .7;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
-}
-.cid-rujtIIfrRj .social-list a:hover {
-  opacity: 1;
-}
-.cid-rujtIIfrRj .form-control {
-  min-height: auto;
-  color: #ffffff !important;
-  border: none;
+.cid-rukeEIO8HT .form-control {
   width: 100%;
+  min-height: auto;
+  color: #232323 !important;
+  border: none;
   border-radius: 0 !important;
   background-color: transparent;
   padding: .5rem 0rem;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #232323;
 }
-.cid-rujtIIfrRj .form-control:focus {
+.cid-rukeEIO8HT .form-control:focus {
   outline: none;
   box-shadow: none;
 }
-.cid-rujtIIfrRj input::-webkit-input-placeholder {
-  color: #ffffff;
+.cid-rukeEIO8HT input::-webkit-input-placeholder {
+  color: #232323;
 }
-.cid-rujtIIfrRj input::-moz-placeholder {
-  color: #ffffff;
+.cid-rukeEIO8HT input::-moz-placeholder {
+  color: #232323;
 }
-.cid-rujtIIfrRj textarea::-webkit-input-placeholder {
-  color: #ffffff;
+.cid-rukeEIO8HT textarea::-webkit-input-placeholder {
+  color: #232323;
 }
-.cid-rujtIIfrRj textarea::-moz-placeholder {
-  color: #ffffff;
+.cid-rukeEIO8HT textarea::-moz-placeholder {
+  color: #232323;
 }
-.cid-rujtIIfrRj .list {
-  list-style-type: none;
-  padding: 0;
+.cid-rukeEIO8HT .soc-item {
+  display: inline-block;
+  margin: 0 .1rem .2rem .1rem;
+  padding: 10px 11px 0 11px;
+  border: 1px solid #efefef;
+  border-radius: 50%;
 }
-.cid-rujtIIfrRj .list li {
-  padding-bottom: .5rem;
+.cid-rukeEIO8HT .soc-item:hover {
+  opacity: .5;
 }
-.cid-rujtIIfrRj .list li:last-child {
-  padding-bottom: 0;
+.cid-rukeEIO8HT .soc-item .socicon {
+  font-size: 1.5rem;
+  color: #efefef;
 }
-.cid-rujtIIfrRj .mbr-footer-list,
-.cid-rujtIIfrRj .form-text {
-  color: #cccccc;
+.cid-rukeEIO8HT .days-column,
+.cid-rukeEIO8HT .hours-column {
+  display: inline-block;
+}
+.cid-rukeEIO8HT .days-column span,
+.cid-rukeEIO8HT .hours-column span {
+  display: block;
+}
+.cid-rukeEIO8HT .input-group-btn {
+  display: block;
 }
 @media (max-width: 767px) {
-  .cid-rujtIIfrRj .mbr-footer-list,
-  .cid-rujtIIfrRj .form-text,
-  .cid-rujtIIfrRj .footer-title,
-  .cid-rujtIIfrRj .footer-main-title,
-  .cid-rujtIIfrRj .form-text,
-  .cid-rujtIIfrRj .list {
-    text-align: center !important;
+  .cid-rukeEIO8HT .days-column {
+    padding-right: 0 !important;
   }
-  .cid-rujtIIfrRj .mbr-form,
-  .cid-rujtIIfrRj .social-list {
-    -webkit-justify-content: center !important;
-    justify-content: center !important;
+  .cid-rukeEIO8HT .hours-column {
+    max-width: 50% !important;
   }
+  .cid-rukeEIO8HT .opening-hours {
+    padding-bottom: 48px !important;
+  }
+}
+.cid-rukeEIO8HT .follow-title,
+.cid-rukeEIO8HT .social-list {
+  text-align: center;
+}
+.cid-rukeEIO8HT .opening-hours-title,
+.cid-rukeEIO8HT .opening-hours {
+  color: #efefef;
+}
+.cid-rukeEIO8HT .contacts-title,
+.cid-rukeEIO8HT .contacts-block {
+  color: #efefef;
+}
+.cid-rukeEIO8HT .follow-title,
+.cid-rukeEIO8HT .social-list,
+.cid-rukeEIO8HT .logo {
+  color: #efefef;
+}
+.cid-rukeEIO8HT .hours-column {
+  color: #efefef;
 }
 .cid-ruk7x4NFWB {
   padding-top: 0px;

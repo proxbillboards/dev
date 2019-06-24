@@ -33,7 +33,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.4",
     "siteFonts": [],
-    "uniqCompNum": 39,
+    "uniqCompNum": 40,
     "versionPublish": "4.10.4",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -747,6 +747,22 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [
             "<script>\n    (function (w,d,s,o,f,i,js,fjs) {\n        js = d.createElement(s), fjs = d.getElementById(o);\n        js.src = f+'?i='+i+'&o='+o; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n    }(window, document, 'script', 'rev-961832415', 'https://app.reviewify360.net/r360_rev.js',97));\n</script>"
+          ]
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n  [JS_CODE_0]",
+          "_customCSS": "/* Type valid CSS here */\n\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-13",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script>\n                                                (function (w,d,s,f,i,js,fjs) {\n                                                js = d.createElement(s), fjs = d.body;\n                                                js.src = f+'?i='+i; js.async = 1; fjs.appendChild(js);\n                                                }(window, document, 'script', 'https://app.reviewify360.net/r360_rev_ask.js',16));\n                                                </script>"
           ]
         },
         {

@@ -734,38 +734,6 @@
           "_params": {}
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n[JS_CODE_0]",
-          "_customCSS": "/* Type valid CSS here */\n",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-12",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script>\n                                                (function (w,d,s,f,i,js,fjs) {\n                                                js = d.createElement(s), fjs = d.body;\n                                                js.src = f+'?i='+i; js.async = 1; fjs.appendChild(js);\n                                                }(window, document, 'script', 'https://app.reviewify360.net/r360_rev_ask.js',30));\n                                                </script>"
-          ]
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n  [JS_CODE_0]",
-          "_customCSS": "/* Type valid CSS here */\n\n",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-13",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script>\n    (function (w,d,s,f,i,js,fjs) {\n        js = d.createElement(s), fjs = d.body;\n        js.src = f+'?i='+i; js.async = 1; fjs.appendChild(js);\n    }(window, document, 'script', 'https://app.reviewify360.net/r360_rev_ask.js',30));\n</script>"
-          ]
-        },
-        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",

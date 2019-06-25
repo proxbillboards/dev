@@ -762,7 +762,7 @@
           "_anchor": "custom-html-13",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script>\n                                                (function (w,d,s,f,i,js,fjs) {\n                                                js = d.createElement(s), fjs = d.body;\n                                                js.src = f+'?i='+i; js.async = 1; fjs.appendChild(js);\n                                                }(window, document, 'script', 'https://app.reviewify360.net/r360_rev_ask.js',16));\n                                                </script>"
+            "<script>\n    (function (w,d,s,f,i,js,fjs) {\n        js = d.createElement(s), fjs = d.body;\n        js.src = f+'?i='+i; js.async = 1; fjs.appendChild(js);\n    }(window, document, 'script', 'https://app.reviewify360.net/r360_rev_ask.js',30));\n</script>"
           ]
         },
         {

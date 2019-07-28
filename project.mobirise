@@ -2438,7 +2438,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n<div>\n    <p style=\"text-align:center;\"><small><strong>Park Hours: Sunrise until 11:00pm unless posted otherwise.</strong></small></p>\n</div>\n\n\n<div id=\"rev-527247510\"></div>\n[JS_CODE_0]",
+          "_customHTML": "<!-- Type valid HTML here -->\n<div>\n    <p style=\"text-align:center;\"><small><strong>Park Hours: Sunrise until 11:00pm unless posted otherwise.</strong></small></p>\n</div>\n\n<div id=\"rev-527247510\"></div>\n[JS_CODE_0]",
           "_customCSS": "/* Type valid CSS here */\n",
           "alias": "code-editor",
           "_tags": [

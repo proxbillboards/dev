@@ -43,7 +43,7 @@
     ],
     "versionFirst": "4.7.6",
     "uniqCompNum": 80,
-    "versionPublish": "4.10.4",
+    "versionPublish": "4.10.6",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-proximity-billboards-dark-300x300-128x128.png",
     "noImageResize": "",
@@ -3909,7 +3909,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n<div>\n    <p style=\"text-align:center;\"><small><strong>Park Hours: Sunrise - Sunset unless posted otherwise.</strong></small></p>\n</div>\n\n\n<div>\n<div id=\"rev-405213949\"></div>\n[JS_CODE_0]\n</div>",
+          "_customHTML": "<!-- Type valid HTML here -->\n<div>\n    <p style=\"text-align:center;\"><small><strong>Park Hours: Sunrise - Sunset unless posted otherwise.</strong></small></p>\n</div>\n\n\n<div id=\"rev-285454957\"></div>\n[JS_CODE_0]                                                                                       ",
           "_customCSS": "/* Type valid CSS here */\n",
           "alias": "code-editor",
           "_tags": [
@@ -3919,7 +3919,7 @@
           "_anchor": "custom-html-27",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script>\n    (function (w,d,s,o,f,i,js,fjs) {\n        js = d.createElement(s), fjs = d.getElementById(o);\n        js.src = f+'?i='+i+'&o='+o; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n    }(window, document, 'script', 'rev-405213949', 'https://app.reviewify360.net/r360_rev.js',101));\n</script>"
+            "<script>\n    (function (w,d,s,o,f,i,js,fjs) {\n        js = d.createElement(s), fjs = d.getElementById(o);\n        js.src = f+'?i='+i+'&o='+o; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n    }(window, document, 'script', 'rev-285454957', 'https://app.reviewify360.net/r360_rev.js',182));\n</script>"
           ]
         },
         {

@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Proximity Billboards",
-    "currentPage": "henderson-park.html",
+    "currentPage": "lucky-shoals-park.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -106,7 +106,7 @@
       "settings": {
         "meta_descr": "Google Maps Direction Code",
         "title": "Google Maps Direction Code",
-        "order": 11
+        "order": 9
       },
       "components": [
         {
@@ -154,7 +154,7 @@
       "settings": {
         "meta_descr": "Customized FEATURED EMPLOYEE geofence campaign - building trust, credibility, and authority for your business!",
         "title": "LocalBeacons Employee Spotlight Campaign",
-        "order": 13,
+        "order": 11,
         "footer_custom": ""
       },
       "components": [
@@ -1089,7 +1089,7 @@
       "settings": {
         "meta_descr": "Bring more awareness to your business from end-users within our ecosystem with a customized, evergreen geofence LOCATION campaign that we post within our geofence ecosystem.",
         "title": "LocalBeacons Deal Campaign - Image v1",
-        "order": 12
+        "order": 10
       },
       "components": [
         {
@@ -1869,7 +1869,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "LocalBeacons - Who Do You Want Deals From?",
-        "order": 1
+        "order": 3
       },
       "components": [
         {
@@ -2029,7 +2029,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Page 6",
-        "order": 10
+        "order": 8
       },
       "components": [
         {
@@ -2387,7 +2387,7 @@
       "settings": {
         "meta_descr": "Lucky Shoals Park (Norcross, Georgia)",
         "title": "LocalBeacons - Lucky Shoals Park (Norcross, Georgia) - Proximity Billboards",
-        "order": 6
+        "order": 2
       },
       "components": [
         {
@@ -2438,7 +2438,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n<div>\n    <p style=\"text-align:center;\"><small><strong>Park Hours: Sunrise until 11:00pm unless posted otherwise.</strong></small></p>\n</div>\n\n\n<div>\n<div id=\"rev-817120504\"></div>\n[JS_CODE_0]\n</div>",
+          "_customHTML": "<!-- Type valid HTML here -->\n<div>\n    <p style=\"text-align:center;\"><small><strong>Park Hours: Sunrise until 11:00pm unless posted otherwise.</strong></small></p>\n</div>\n\n\n<div id=\"rev-527247510\"></div>\n[JS_CODE_0]",
           "_customCSS": "/* Type valid CSS here */\n",
           "alias": "code-editor",
           "_tags": [
@@ -2448,7 +2448,7 @@
           "_anchor": "custom-html-27",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script>\n    (function (w,d,s,o,f,i,js,fjs) {\n        js = d.createElement(s), fjs = d.getElementById(o);\n        js.src = f+'?i='+i+'&o='+o; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n    }(window, document, 'script', 'rev-817120504', 'https://app.reviewify360.net/r360_rev.js',88));\n</script>"
+            "<script>\n    (function (w,d,s,o,f,i,js,fjs) {\n        js = d.createElement(s), fjs = d.getElementById(o);\n        js.src = f+'?i='+i+'&o='+o; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n    }(window, document, 'script', 'rev-527247510', 'https://app.reviewify360.net/r360_rev.js',183));\n</script>"
           ]
         },
         {
@@ -2595,7 +2595,7 @@
       "settings": {
         "meta_descr": "Shorty Howell Park (Duluth, Georgia)",
         "title": "LocalBeacons - Shorty Howell Park (Duluth, Georgia) - Proximity Billboards",
-        "order": 7
+        "order": 6
       },
       "components": [
         {
@@ -2803,7 +2803,7 @@
       "settings": {
         "meta_descr": "Bring more awareness to your business from end-users within our ecosystem with a customized, evergreen geofence LOCATION campaign that we post within our geofence ecosystem.",
         "title": "[MASTER] LocalBeacons Location Campaign Template",
-        "order": 3
+        "order": 5
       },
       "components": [
         {
@@ -3650,7 +3650,7 @@
       "settings": {
         "meta_descr": "Glenlake Park (Decatur, Georgia)",
         "title": "LocalBeacons - Glenlake Park (Decatur, Georgia) - Proximity Billboards",
-        "order": 8
+        "order": 7
       },
       "components": [
         {
@@ -3858,7 +3858,7 @@
       "settings": {
         "meta_descr": "Henderson Park (Tucker, Georgia)",
         "title": "LocalBeacons - Henderson Park (Tucker, Georgia) - Proximity Billboards",
-        "order": 9
+        "order": 1
       },
       "components": [
         {
@@ -4066,7 +4066,7 @@
       "settings": {
         "meta_descr": "Is Your Business On Google My Business (GMB)?",
         "title": "LocalBeacons - Is Your Business On Google My Business (GMB)?",
-        "order": 2
+        "order": 4
       },
       "components": [
         {

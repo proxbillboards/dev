@@ -33,7 +33,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.4",
     "siteFonts": [],
-    "uniqCompNum": 63,
+    "uniqCompNum": 64,
     "versionPublish": "4.10.6",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -567,6 +567,22 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n[JS_CODE_0]",
+          "_customCSS": "/* Type valid CSS here */\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-1r",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"text/javascript\" src=\"https://botsrv.com/qb/widget/vK8WdbwWYobJlzN5/Nog0YE5kBompWJwX\" async defer></script>"
+          ]
         }
       ]
     },

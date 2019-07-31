@@ -853,7 +853,9 @@ body {
 }
 .cid-rukcoTIT8r {
   overflow: hidden !important;
-  background: linear-gradient(to right, #ec6963 0%, #ec6963 30%, #365c9a 30%, #365c9a 100%);
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(to right, #365c9a 0%, #365c9a 30%, #365c9a 30%, #365c9a 100%);
 }
 .cid-rukcoTIT8r .animated-element {
   color: #efefef;
@@ -884,7 +886,7 @@ body {
   }
 }
 .cid-rxP1ONQV7y {
-  padding-top: 90px;
+  padding-top: 60px;
   padding-bottom: 30px;
   background-color: #ffffff;
 }
@@ -1156,7 +1158,7 @@ body {
 }
 .cid-rxP0sw1U6X {
   padding-top: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   background-color: #232323;
 }
 .cid-rjzCea0ePJ {

@@ -36,7 +36,7 @@
     "uniqCompNum": 64,
     "versionPublish": "4.10.6",
     "screenshot": "screenshot.png",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/logo-proximity-billboards-dark-128x128.png",
     "noImageResize": "",
     "gdpr": "",
     "google-analytics": "",
@@ -47,7 +47,7 @@
       "settings": {
         "main": true,
         "title": "Landing Page Vcard MAIN Template",
-        "meta_descr": "",
+        "meta_descr": "Proximity Billboards",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""

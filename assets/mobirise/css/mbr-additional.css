@@ -855,7 +855,7 @@ body {
   overflow: hidden !important;
   padding-top: 90px;
   padding-bottom: 90px;
-  background: linear-gradient(to right, #365c9a 0%, #365c9a 30%, #365c9a 30%, #365c9a 100%);
+  background: linear-gradient(to right, #66458e 0%, #66458e 30%, #66458e 30%, #66458e 100%);
 }
 .cid-rukcoTIT8r .animated-element {
   color: #efefef;
@@ -879,7 +879,7 @@ body {
 }
 @media (max-width: 768px) {
   .cid-rukcoTIT8r {
-    background: #365c9a;
+    background: #66458e;
   }
   .cid-rukcoTIT8r .img-block {
     padding-bottom: 2rem;

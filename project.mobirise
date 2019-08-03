@@ -4043,20 +4043,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "\n                                            ",
-          "_customCSS": "/* Type valid CSS here */",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-2f",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
         }
       ]
     },

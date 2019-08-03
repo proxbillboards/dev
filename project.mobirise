@@ -659,7 +659,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n[JS_CODE_0]",
+          "_customHTML": "<!-- Type valid HTML here -->\n\n",
           "_customCSS": "/* Type valid CSS here */\n",
           "alias": "code-editor",
           "_tags": [
@@ -668,9 +668,7 @@
           "_name": "pro.custom-html",
           "_anchor": "custom-html-1r",
           "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script type=\"text/javascript\" src=\"https://botsrv.com/qb/widget/vK8WdbwWYobJlzN5/Nog0YE5kBompWJwX\" async defer></script>"
-          ]
+          "_JSplaceholders": []
         }
       ]
     },

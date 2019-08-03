@@ -4047,7 +4047,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "[JS_CODE_0]\n                                            ",
+          "_customHTML": "\n                                            ",
           "_customCSS": "/* Type valid CSS here */",
           "alias": "code-editor",
           "_tags": [
@@ -4056,9 +4056,7 @@
           "_name": "pro.custom-html",
           "_anchor": "custom-html-2f",
           "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script>\n    (function (w,d,s,f,i,js,fjs) {\n        js = d.createElement(s), fjs = d.body;\n        js.src = f+'?i='+i; js.async = 1; fjs.appendChild(js);\n    }(window, document, 'script', 'https://app.reviewify360.net/r360_rev_ask.js',20));\n</script>"
-          ]
+          "_JSplaceholders": []
         }
       ]
     },

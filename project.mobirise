@@ -42,7 +42,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 97,
+    "uniqCompNum": 98,
     "versionPublish": "4.10.7",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-proximity-billboards-dark-300x300-128x128.png",
@@ -4212,25 +4212,10 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "MASTER LocalBeacons VCARD",
-        "order": 3
+        "order": 3,
+        "footer_custom": "<script src=\"https://app.usestickyreviews.com/lib/v1.1/dist/build.js\" data-token=\"emv_ubuntu5d5f05a1d03ac1566508449\" data-name=\"_emv\" async></script>"
       },
       "components": [
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n[JS_CODE_0]",
-          "_customCSS": "/* Type valid CSS here */",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-2n",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script src=\"https://app.usestickyreviews.com/lib/v1.1/dist/build.js\" data-token=\"emv_ubuntu5d5f05a1d03ac1566508449\" data-name=\"_emv\" async></script>"
-          ]
-        },
         {
           "alias": false,
           "_styles": {

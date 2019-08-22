@@ -4203,6 +4203,22 @@
       },
       "components": [
         {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n[JS_CODE_0]",
+          "_customCSS": "/* Type valid CSS here */",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-2n",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script src=\"https://app.usestickyreviews.com/lib/v1.1/dist/build.js\" data-token=\"emv_ubuntu5d5f05a1d03ac1566508449\" data-name=\"_emv\" async></script>"
+          ]
+        },
+        {
           "alias": false,
           "_styles": {
             "overflow": "hidden !important",
@@ -4700,22 +4716,6 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n[JS_CODE_0]",
-          "_customCSS": "/* Type valid CSS here */",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-2n",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script src=\"https://app.usestickyreviews.com/lib/v1.1/dist/build.js\" data-token=\"emv_ubuntu5d5f05a1d03ac1566508449\" data-name=\"_emv\" async></script>"
-          ]
         }
       ]
     }

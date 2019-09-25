@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Proximity Billboards",
-    "currentPage": "shorty-howell-park.html",
+    "currentPage": "master-vcard-template.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -44,7 +44,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 156,
+    "uniqCompNum": 158,
     "versionPublish": "4.10.15",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-proximity-billboards-dark-300x300-128x128.png",
@@ -2029,7 +2029,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Page 6",
-        "order": 7
+        "order": 9
       },
       "components": [
         {
@@ -2365,7 +2365,7 @@
       "settings": {
         "meta_descr": "Lucky Shoals Park (Norcross, Georgia)",
         "title": "LocalBeacons - Lucky Shoals Park (Norcross, Georgia) - Proximity Billboards",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -3596,7 +3596,7 @@
       "settings": {
         "meta_descr": "Glenlake Park (Decatur, Georgia)",
         "title": "LocalBeacons - Glenlake Park (Decatur, Georgia) - Proximity Billboards",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -3788,7 +3788,7 @@
       "settings": {
         "meta_descr": "Henderson Park (Tucker, Georgia)",
         "title": "LocalBeacons - Henderson Park (Tucker, Georgia) - Proximity Billboards",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -3980,7 +3980,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "MASTER LocalBeacons VCARD",
-        "order": 9,
+        "order": 1,
         "footer_custom": "",
         "html_before": ""
       },
@@ -4123,111 +4123,6 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".carousel-item": {
-              "-webkit-justify-content": "center",
-              "justify-content": "center"
-            },
-            ".carousel-item.active, .carousel-item-next, .carousel-item-prev": {
-              "display": "flex"
-            },
-            ".carousel-controls": {
-              "a": {
-                "transition": "opacity .5s",
-                "font-size": "1.2rem",
-                "span": {
-                  "position": "absolute",
-                  "top": "180px",
-                  "padding": "15px",
-                  "border-radius": "50%",
-                  "color": "contrast(@arrowColor)",
-                  "background": "@arrowColor",
-                  "opacity": ".9"
-                },
-                "&:hover": {
-                  "span": {
-                    "opacity": "1"
-                  }
-                }
-              }
-            },
-            ".user_image": {
-              "width": "170px",
-              "height": "170px",
-              "margin-bottom": "1.6rem",
-              "overflow": "hidden",
-              "border-radius": "50%",
-              "background": "@imgBgColor",
-              "margin": "0 auto 2rem auto",
-              "display": "flex",
-              "-webkit-box-shadow": "0 7px 20px 5px rgba(0, 0, 0, 0.08)",
-              "-ms-box-shadow": "0 7px 20px 5px rgba(0, 0, 0, 0.08)",
-              "-o-box-shadow": "0 7px 20px 5px rgba(0, 0, 0, 0.08)",
-              "-moz-box-shadow": "0 7px 20px 5px rgba(0, 0, 0, 0.08)",
-              "box-shadow": "0 7px 20px 5px rgba(0, 0, 0, 0.08)",
-              ".user_image_inner": {
-                "width": "150px",
-                "height": "150px",
-                "border-radius": "50%",
-                "position": "relative",
-                "overflow": "hidden",
-                "display": "flex",
-                "margin": "auto",
-                "img": {
-                  "width": "100%",
-                  "min-width": "100%",
-                  "min-height": "100%"
-                }
-              }
-            },
-            ".user_text": {
-              "color": "#ffffff"
-            },
-            ".user": {
-              "margin": "1rem"
-            },
-            "@media (min-width: 992px)": {
-              ".user": {
-                "padding": "2rem 3rem"
-              }
-            },
-            "@media (max-width: 230px)": {
-              ".user_image": {
-                "width": "100%",
-                "height": "auto"
-              }
-            },
-            ".user_name": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            },
-            ".user_desk": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "testimonials-slider1",
-          "_customHTML": "<section class=\"carousel slide testimonials-slider\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Padding Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\" inline>\n        <input type=\"range\" title=\"Padding Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" inline title=\"Count Items\" name=\"testimonialsSlides\" min=\"1\" max=\"20\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Author Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Show Author Title\" name=\"showDesk\" checked>\n        <input type=\"color\" title=\"Image Border Color\" name=\"imgBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Arrow Color\" name=\"arrowColor\" value=\"#ffffff\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container text-center\">\n        <h2 class=\"mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            What Our Clients Say\n        </h2>\n\n        <div class=\"carousel slide\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n            <div mbr-list mbr-list-grow=\"testimonialsSlides\" class=\"carousel-inner\">\n                <div class=\"carousel-item\">\n                    <div class=\"user col-md-8\">\n                        <div class=\"user_text pb-3\">\n                            <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".user_text\">\n                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum, quos voluptas fugiat blanditiis, temporibus expedita cumque doloribus ea, officiis consequuntur repellat minus ad veritatis? Facere similique accusamus, accusantium sunt!\n                            </p>\n                        </div>\n                        <div class=\"user_image\">\n                            <div class=\"user_image_inner\">\n                                <img src=\"@PROJECT_PATH@/assets/images/face115.jpg\">\n                            </div>\n                        </div>\n                        <div mbr-text class=\"user_name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".user_name\">\n                            John Smith\n                        </div>\n                        <div mbr-text class=\"user_desk mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showDesk\" data-app-selector=\".user_desk\">\n                            His Business Name</div>\n                    </div>\n                </div>\n                <div class=\"carousel-item\">\n                    <div class=\"user col-md-8\">\n                        <div class=\"user_text pb-3\">\n                            <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".user_text\">\n                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum, quos voluptas fugiat blanditiis, temporibus expedita cumque doloribus ea, officiis consequuntur repellat minus ad veritatis? Facere similique accusamus, accusantium sunt!\n                            </p>\n                        </div>\n                        <div class=\"user_image\">\n                            <div class=\"user_image_inner\">\n                                <img src=\"@PROJECT_PATH@/assets/images/mbr-300x233.jpg\" alt title>\n                            </div>\n                        </div>\n                        <div mbr-text class=\"user_name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".user_name\">\n                            Helen Smith\n                        </div>\n                        <div mbr-text class=\"user_desk mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showDesk\" data-app-selector=\".user_desk\">\n                            Her Business Name</div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"carousel-controls\">\n                <a class=\"carousel-control-prev\" role=\"button\" data-slide=\"prev\">\n                  <span aria-hidden=\"true\" class=\"mbri-left mbr-iconfont\"></span>\n                  <span class=\"sr-only\">Previous</span>\n                </a>\n                \n                <a class=\"carousel-control-next\" role=\"button\" data-slide=\"next\">\n                  <span aria-hidden=\"true\" class=\"mbri-right mbr-iconfont\"></span>\n                  <span class=\"sr-only\">Next</span>\n                </a>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "testimonials-slider1-2q",
-          "_isUserblock": true,
-          "_sourceTheme": "commercem4",
-          "_cid": "rzUWEsPIj1",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
             ".card": {
               "display": "block",
               "position": "relative",
@@ -4344,53 +4239,6 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background": "@bgColor",
-            ".google-map": {
-              "height": "25rem",
-              "position": "relative",
-              "iframe": {
-                "height": "100%",
-                "width": "100%"
-              },
-              "[data-state-details]": {
-                "color": "#6b6763",
-                "font-family": "Montserrat",
-                "height": "1.5em",
-                "margin-top": "-0.75em",
-                "padding-left": "1.25rem",
-                "padding-right": "1.25rem",
-                "position": "absolute",
-                "text-align": "center",
-                "top": "50%",
-                "width": "100%"
-              },
-              "&[data-state]": {
-                "background": "#e9e5dc"
-              },
-              "&[data-state=\"loading\"]": {
-                "[data-state-details]": {
-                  "display": "none"
-                },
-                "&::after": {}
-              }
-            }
-          },
-          "_name": "map1",
-          "_customHTML": "<section class=\"map1\" group=\"Forms &amp; Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\">\n\t\t<input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\">\n    \t<input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"ChIJ55nEHZz99IgRh53YIupVHVY\" value=\"3900 Crown Road SE Atlanta, GA 30380\">   \n    \t<input type=\"color\" name=\"bgColor\" title=\"Background Color\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
-          "_anchor": "map1-2g",
-          "_isUserblock": true,
-          "_sourceTheme": "commercem4",
-          "_cid": "ry6IO9ZqFQ",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
@@ -4415,6 +4263,141 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n<span class=\"yelp-review\" data-review-id=\"9KK8Tzofj7o5PAP1LsnpgA\" data-hostname=\"www.yelp.com\">Read <a href=\"https://www.yelp.com/user_details?userid=CGULshgR47ggBzXBTiybrQ\" rel=\"nofollow noopener\">Alex W.</a>'s <a href=\"https://www.yelp.com/biz/henderson-park-tucker?hrid=9KK8Tzofj7o5PAP1LsnpgA\" rel=\"nofollow noopener\">review</a> of <a href=\"https://www.yelp.com/biz/b6leBi3ETtxCBXBNyjrPgw\" rel=\"nofollow noopener\">Henderson Park</a> on <a href=\"https://www.yelp.com\" rel=\"nofollow noopener\">Yelp</a>[JS_CODE_0]</span>     ",
+          "_customCSS": "/* Type valid CSS here */",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-4d",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script async=\"async\" src=\"https://www.yelp.com/embed/widgets.js\" type=\"text/javascript\"></script>"
+          ]
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".carousel-item": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".carousel-item.active, .carousel-item-next, .carousel-item-prev": {
+              "display": "flex"
+            },
+            ".carousel-controls": {
+              "a": {
+                "transition": "opacity .5s",
+                "font-size": "1.2rem",
+                "span": {
+                  "position": "absolute",
+                  "top": "180px",
+                  "padding": "15px",
+                  "border-radius": "50%",
+                  "color": "contrast(@arrowColor)",
+                  "background": "@arrowColor",
+                  "opacity": ".9"
+                },
+                "&:hover": {
+                  "span": {
+                    "opacity": "1"
+                  }
+                }
+              }
+            },
+            ".user_image": {
+              "width": "170px",
+              "height": "170px",
+              "margin-bottom": "1.6rem",
+              "overflow": "hidden",
+              "border-radius": "50%",
+              "background": "@imgBgColor",
+              "margin": "0 auto 2rem auto",
+              "display": "flex",
+              "-webkit-box-shadow": "0 7px 20px 5px rgba(0, 0, 0, 0.08)",
+              "-ms-box-shadow": "0 7px 20px 5px rgba(0, 0, 0, 0.08)",
+              "-o-box-shadow": "0 7px 20px 5px rgba(0, 0, 0, 0.08)",
+              "-moz-box-shadow": "0 7px 20px 5px rgba(0, 0, 0, 0.08)",
+              "box-shadow": "0 7px 20px 5px rgba(0, 0, 0, 0.08)",
+              ".user_image_inner": {
+                "width": "150px",
+                "height": "150px",
+                "border-radius": "50%",
+                "position": "relative",
+                "overflow": "hidden",
+                "display": "flex",
+                "margin": "auto",
+                "img": {
+                  "width": "100%",
+                  "min-width": "100%",
+                  "min-height": "100%"
+                }
+              }
+            },
+            ".user_text": {
+              "color": "#ffffff"
+            },
+            ".user": {
+              "margin": "1rem"
+            },
+            "@media (min-width: 992px)": {
+              ".user": {
+                "padding": "2rem 3rem"
+              }
+            },
+            "@media (max-width: 230px)": {
+              ".user_image": {
+                "width": "100%",
+                "height": "auto"
+              }
+            },
+            ".user_name": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".user_desk": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "testimonials-slider1",
+          "_customHTML": "<section class=\"carousel slide testimonials-slider\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Padding Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\" inline>\n        <input type=\"range\" title=\"Padding Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" inline title=\"Count Items\" name=\"testimonialsSlides\" min=\"1\" max=\"20\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Author Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Show Author Title\" name=\"showDesk\" checked>\n        <input type=\"color\" title=\"Image Border Color\" name=\"imgBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Arrow Color\" name=\"arrowColor\" value=\"#ffffff\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container text-center\">\n        <h2 class=\"mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            What Our Clients Say\n        </h2>\n\n        <div class=\"carousel slide\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n            <div mbr-list mbr-list-grow=\"testimonialsSlides\" class=\"carousel-inner\">\n                <div class=\"carousel-item\">\n                    <div class=\"user col-md-8\">\n                        <div class=\"user_text pb-3\">\n                            <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".user_text\">\n                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum, quos voluptas fugiat blanditiis, temporibus expedita cumque doloribus ea, officiis consequuntur repellat minus ad veritatis? Facere similique accusamus, accusantium sunt!\n                            </p>\n                        </div>\n                        <div class=\"user_image\">\n                            <div class=\"user_image_inner\">\n                                <img src=\"@PROJECT_PATH@/assets/images/face118.jpg\">\n                            </div>\n                        </div>\n                        <div mbr-text class=\"user_name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".user_name\">\n                            John Smith\n                        </div>\n                        <div mbr-text class=\"user_desk mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showDesk\" data-app-selector=\".user_desk\">\n                            His Business Name</div>\n                    </div>\n                </div>\n                <div class=\"carousel-item\">\n                    <div class=\"user col-md-8\">\n                        <div class=\"user_text pb-3\">\n                            <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".user_text\">\n                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum, quos voluptas fugiat blanditiis, temporibus expedita cumque doloribus ea, officiis consequuntur repellat minus ad veritatis? Facere similique accusamus, accusantium sunt!\n                            </p>\n                        </div>\n                        <div class=\"user_image\">\n                            <div class=\"user_image_inner\">\n                                <img src=\"@PROJECT_PATH@/assets/images/mbr-300x233.jpg\" alt title>\n                            </div>\n                        </div>\n                        <div mbr-text class=\"user_name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".user_name\">\n                            Helen Smith\n                        </div>\n                        <div mbr-text class=\"user_desk mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showDesk\" data-app-selector=\".user_desk\">\n                            Her Business Name</div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"carousel-controls\">\n                <a class=\"carousel-control-prev\" role=\"button\" data-slide=\"prev\">\n                  <span aria-hidden=\"true\" class=\"mbri-left mbr-iconfont\"></span>\n                  <span class=\"sr-only\">Previous</span>\n                </a>\n                \n                <a class=\"carousel-control-next\" role=\"button\" data-slide=\"next\">\n                  <span aria-hidden=\"true\" class=\"mbri-right mbr-iconfont\"></span>\n                  <span class=\"sr-only\">Next</span>\n                </a>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "testimonials-slider1-2q",
+          "_isUserblock": true,
+          "_sourceTheme": "commercem4",
+          "_cid": "rzUWEsPIj1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53002.69289395403!2d-84.36352571434804!3d33.87243821216631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5089505f9f565%3A0x851a6587d0c37ec1!2sBrookhaven%2C%20GA!5e0!3m2!1sen!2sus!4v1569431321607!5m2!1sen!2sus\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"></iframe>",
+          "_customCSS": "/* Type valid CSS here */",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-4c",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "alias": false,
@@ -4635,7 +4618,7 @@
       "settings": {
         "meta_descr": "McDaniel Farm Park (Duluth, Georgia)",
         "title": "LocalBeacons - McDaniel Farm Park (Duluth, Georgia) - Proximity Billboards",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -4827,7 +4810,7 @@
       "settings": {
         "meta_descr": "Pernoshal Park (Dunwoody, Georgia)",
         "title": "LocalBeacons - Pernoshal Park (Dunwoody, Georgia) - Proximity Billboards",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -5019,7 +5002,7 @@
       "settings": {
         "meta_descr": "Casade Springs Nature Preserve (Atlanta, Georgia)",
         "title": "LocalBeacons - Casade Springs Nature Preserve (Atlanta, Georgia) - Proximity Billboards",
-        "order": 1
+        "order": 2
       },
       "components": [
         {

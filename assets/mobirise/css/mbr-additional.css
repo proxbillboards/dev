@@ -712,17 +712,18 @@ section.lazy-placeholder:after {
 .cid-risKng0lYn {
   background-image: url("../../../assets/images/proximitybillboards.com-atlanta-overlay-1920x1080-1921x1080.png");
 }
-@media (min-width: 992px) {
-  .cid-risKng0lYn .desktop-only {
-    display: block !important;
-  }
+.cid-risKng0lYn #content-desktop {
+  display: block;
 }
-@media (max-width: 991px) {
-  .cid-risKng0lYn .mobile-only {
-    display: block !important;
+.cid-risKng0lYn #content-mobile {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .cid-risKng0lYn #content-desktop {
+    display: none;
   }
-  .cid-risKng0lYn .desktop-only {
-    display: none !important;
+  .cid-risKng0lYn #content-mobile {
+    display: block;
   }
 }
 .cid-risKng0lYn h1 {

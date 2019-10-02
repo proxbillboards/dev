@@ -4392,6 +4392,10 @@ section.lazy-placeholder:after {
     margin-bottom: 2rem;
   }
 }
+.cid-rDG7rYjgC2 a,
+.cid-rDG7rYjgC2 a:hover {
+  color: #e97200;
+}
 .cid-rDGL8w9B7Z {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -4544,6 +4548,10 @@ section.lazy-placeholder:after {
 }
 .cid-rDG7s98c0b .hours-column {
   color: #efefef;
+}
+.cid-rDG7s98c0b a,
+.cid-rDG7s98c0b a:hover {
+  color: #e97200;
 }
 .cid-rDG7sb91n1 {
   padding-top: 0px;

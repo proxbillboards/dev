@@ -4439,6 +4439,18 @@ section.lazy-placeholder:after {
 .cid-rDGL8w9B7Z .card-title {
   text-align: center;
 }
+.cid-rDKH6GyFeZ {
+  background: #ffffff;
+}
+.cid-rDKH6GyFeZ .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-rDKH6GyFeZ .video-block {
+    width: 100% !important;
+  }
+}
 #custom-html-4n {
   /* Type valid CSS here */
 }

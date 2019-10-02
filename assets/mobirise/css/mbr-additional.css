@@ -710,7 +710,7 @@ section.lazy-placeholder:after {
   opacity: 0.3;
 }
 .cid-risKng0lYn {
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/proximitybillboards.com-atlanta-overlay-1920x1080-1921x1080.png");
 }
 .cid-risKng0lYn #content-desktop {
   display: block;
@@ -718,7 +718,7 @@ section.lazy-placeholder:after {
 .cid-risKng0lYn #content-mobile {
   display: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 773px) {
   .cid-risKng0lYn #content-desktop {
     display: none;
   }

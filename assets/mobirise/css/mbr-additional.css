@@ -4853,6 +4853,10 @@ section.lazy-placeholder:after {
   width: auto;
   max-width: 100%;
 }
+.cid-rDKtIzEvQL a,
+.cid-rDKtIzEvQL a:hover {
+  color: #e97200;
+}
 .cid-rDG7serGwc {
   padding-top: 15px;
   padding-bottom: 15px;
